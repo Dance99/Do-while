@@ -14,4 +14,8 @@ console.log ("El valor acumulado es: " + suma);
 
 if(suma > 0) {
     console.log("El valor acumulado es mayor a cero. ");
-} else if (suma < 0)
+} else if (suma < 0) {
+    console.log("El valor acumulado es menor a cero. ");
+} else {
+    console.log ("El valor acumulado es cero. ");
+}
